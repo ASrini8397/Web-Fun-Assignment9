@@ -1,0 +1,99 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+h1{
+    background-color: rgb(0, 162, 255);
+    color: white;
+    width: 80%;
+    height: 80px;
+    border: 3px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    justify-content: center;
+    align-items: flex-end;
+}
+h3{
+    display: inline;
+    font-size: x-large;
+
+}
+
+.Center{
+    width: 80%;
+    height: 800px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.left{
+    width: 20%;
+    margin: 10px 20px;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right{
+    width:80%;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    width:65%;
+    height: 210px;
+    border: 3px solid black;
+    margin: 10px auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    gap: 50px;
+    margin: 10px;
+    padding:10px;
+    color:black;
+}
+button{
+    display: flex;
+    background-color: rgb(255, 208, 0);
+    color: black;
+    width: 100px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px;
+}
+p{
+    margin: auto;
+    font-size: larger;
+}
+img{
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    border: 2px solid black;
+    
+}
+.left a{
+    margin: 10px auto;
+    font-size: large;
+}
+.left h4{
+    font-size: xx-large;
+    margin: 30px auto;
+
+}
